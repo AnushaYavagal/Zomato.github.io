@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href=
+        "zomato_logo.png" type="image/x-icon">
+    <style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: floralwhite;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    width: 100%;
+    overflow:auto;
+    font-size: 120%;
+}
+
+nav ul{
+    margin: 5px 70px 50px 750px;
+    padding: 50;
+    lifestyle: none;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    width: 100px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    /*line-height: 2em;*/
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+nav > ul > li > a:hover
+{
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 118) 0%, rgb(254, 106, 103) 47.7%, rgb(240, 23, 23) 92.3%);
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo-img{
+    float: left;
+    position: absolute;
+
+    margin-top: 15px;
+    margin-left: 10px;
+    background: rgba(255, 0, 0, opacity);
+    /*margin: 10px 15px 150px 10px;*/
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+img{
+    transition: transform .2s;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 200px;
+    border: 1px solid black;
+}
+img:hover{
+    transform:scale(1.2);
+}
+
+.image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .item-container {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 30%; /* Adjust as needed */
+        }
+
+        .item-container img {
+            transition: transform .2s;
+            margin: 0 auto;
+            background-color: rgb(173, 173, 237);
+            border-radius: 100px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+
+        .item-name {
+            margin-bottom: 10px;
+        }
+
+        .item-details {
+            display: flex;
+            justify-content: space-around; /* Adjusted to space-around */
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .item-details p {
+            margin: 0;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px; /* Adjusted padding */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 5px; 
+        }
+
+
+        button:hover {
+            background-color: #45a049;
+        }
+</style>
+   
+</head>
+
+
+
+
+<body>
+     <br>
+        <div class="logo-img"><a href="about.html">
+        <img src="logo.jpg" width="150px" height="45px"></a>
+        </div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact Us.html">Contact us</a></li>
+                <li><a href="sign in.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+
+<br>
+     <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pizza </h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+
+                     <div class="image-container">
+        <div class="item-container">
+            <img class="rest-img" src="Cheese.jpg" height="300px" width="300px" alt="Chicken Biryani">
+            <div class="item-name"><h3>Cheese Pizza</h3></div>
+        </div>
+
+        <div class="item-container">
+            <img class="rest-img" src="Vegge.jpg" height="300px" width="300px" alt="Mutton Biryani">
+            <div class="item-name"><h3>Veggie Pizza</h3></div>
+        </div>
+
+        <div class="item-container">
+            <img class="rest-img" src="peppronie.jpg" height="300px" width="300px" alt="Egg Biryani">
+            <div class="item-name"><h3>Pepperoni Pizza</h3></div>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹180</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹350</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹480</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="image-container">
+        <div class="item-container">
+            <img class="rest-img" src="margeritta.jpg" height="300px" width="300px" alt="Chicken Biryani">
+            <div class="item-name"><h3>Margherita Pizza</h3></div>
+        </div>
+
+        <div class="item-container">
+            <img class="rest-img" src="supreme.jpg" height="300px" width="300px" alt="Mutton Biryani">
+            <div class="item-name"><h3>Supreme Pizza</h3></div>
+        </div>
+
+        <div class="item-container">
+            <img class="rest-img" src="bbq.jpg" height="300px" width="300px" alt="Egg Biryani">
+            <div class="item-name"><h3>BBQ Chicken Pizza</h3></div>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹250</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹380</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-details">
+                <p>₹480</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </div>
+        
+
+    <br><br><br>

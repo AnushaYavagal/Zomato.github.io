@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign in.css">
+    <title>Zomato</title>
+    <link rel="icon" href=
+        "zomato_logo.png" type="image/x-icon">
+    <style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: floralwhite;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    width: 100%;
+    font-size: 110%;
+    overflow:auto;
+}
+
+nav ul{
+    margin: 5px 70px 50px 850px;
+    padding: 0;
+    lifestyle: none;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    width: 110px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    /*line-height: 2em;*/
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+nav > ul > li > a:hover
+{
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 118) 0%, rgb(254, 106, 103) 47.7%, rgb(240, 23, 23) 92.3%);
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo-img{
+    float: left;
+    position: absolute;
+
+    margin-top: 15px;
+    margin-left: 10px;
+    background: rgba(255, 0, 0, opacity);
+    /*margin: 10px 15px 150px 10px;*/
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+
+    
+</style>
+   
+</head>
+<body bgcolor = "FFFF99";>
+     
+      <div class="logo-img"><a href="about.html">
+        <img src="logo.jpg" width="150px" height="45px"></a>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact Us.html">Contact us</a></li>
+            <li><a href="sign in.html">Sign In</a></li>
+        </ul>
+    </nav>
+</div>
+
+<br><br>
+
+
+     
+    
+    <div class="login-wrap">
+    <div class="login-html">
+
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="login-form">
+            <div class="sign-in-htm">
+                <div class="group">
+                    <label for="user" class="label">Username</label>
+                    <input id="user" type="text" class="input">
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                </div>
+                <div class="group">
+                    <input id="check" type="checkbox" class="check" checked>
+                    <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                </div>
+                <div class="group">
+                    <input type="submit" class="button" value="Sign In">
+                </div>
+                <div class="hr"></div>
+                <div class="foot-lnk">
+                    <a href="#forgot">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="sign-up-htm">
+                <div class="group">
+                    <label for="user" class="label">Username</label>
+                    <input id="user" type="text" class="input">
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Repeat Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Email Address</label>
+                    <input id="pass" type="text" class="input">
+                </div>
+                <div class="group">
+                    <input type="submit" class="button" value="Sign Up">
+                </div>
+                <div class="hr"></div>
+                <div class="foot-lnk">
+                    <label for="tab-1">Already Member?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>     

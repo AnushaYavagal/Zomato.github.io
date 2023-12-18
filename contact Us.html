@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href=
+        "zomato_logo.png" type="image/x-icon">
+    <style>
+    	
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    width: 100%;
+    overflow:auto;
+    font-size: 120%;
+}
+
+nav ul{
+    margin: 5px 70px 50px 750px;
+    padding: 50;
+    lifestyle: none;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    width: 100px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    /*line-height: 2em;*/
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+nav > ul > li > a:hover
+{
+  background: radial-gradient(circle at 10% 20%, rgb(255, 197, 118) 0%, rgb(254, 106, 103) 47.7%, rgb(240, 23, 23) 92.3%);
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo-img{
+    float: left;
+    position: absolute;
+
+    margin-top: 15px;
+    margin-left: 10px;
+    background: rgba(255, 0, 0, opacity);
+    /*margin: 10px 15px 150px 10px;*/
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+    .banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+ 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ 
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+    </style>
+   
+</head>
+<body bgcolor= "#e5ffe5">
+    
+      <div class="logo-img"><a href="about.html">
+        <img src="logo.jpg" width="150px" height="45px"></a>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact Us.html">Contact us</a></li>
+            <li><a href="sign in.html">Sign In</a></li>
+        </ul>
+    </nav>
+</div>
+
+   
+
+		
+		 <section class="banner">
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+            alt="Welcome to our Contact Us page">
+        <h1>Get in Touch With Us</h1>
+        <p>We're here to answer any questions you may have.</p>
+    </section>
+ 
+    <!-- Contact form -->
+    <section class="contact-form">
+        <div class="form-container">
+            <h2>Your Details</h2>
+            <form action="#" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            Zomato<br>
+            121 Main Street<br>
+            Banglore, Karnataka 586335<br>
+            Phone: <a href="tel:7845369825">7845369825</a><br>
+            Email: <a href="mailto:zomato@gmail.com">zomato@gmail.com</a>
+        </address>
+    </section>
+ 
+    <footer>
+        <p>© 2023 Zomato. All rights reserved.</p>
+    </footer>
+		
+	
+</body>
+
